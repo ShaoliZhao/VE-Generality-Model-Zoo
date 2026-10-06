@@ -1,0 +1,4 @@
+cell_type	anatomy_id	anatomy	stage_start	stage_end	confidence	species_match	context_match	directness	source
+cardiac progenitor cell	EMAPA:16105	heart field	7.5	9.5	0.9	1	1	1	EMAPA_example
+cardiomyocyte	EMAPA:16104	heart	8.0	13.5	1	1	1	1	EMAPA_example
+endothelial cell	EMAPA:32725	blood vessel	7.5	13.5	0.8	1	0.8	1	EMAPA_example

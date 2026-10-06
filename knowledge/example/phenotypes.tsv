@@ -1,0 +1,4 @@
+gene	phenotype_id	phenotype	anatomy	allele_type	confidence	evidence_family	species_match	context_match	directness	source
+Gata4	MP:0000266	abnormal heart development	heart	knockout	1	mouse_KO	1	1	1	MGI_example
+Ctnnb1	MP:0001672	embryonic growth retardation	embryo	conditional_knockout	0.9	mouse_KO	1	1	1	IMPC_MGI_example
+Mab21l2	MP:0002084	abnormal embryonic morphogenesis	embryo	knockout	0.7	mouse_KO	1	0.8	1	Monarch_example

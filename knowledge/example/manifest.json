@@ -1,0 +1,23 @@
+{
+  "bundle_version": "0.2.0-example",
+  "created_for": "Virtual Embryo Challenge",
+  "resources": [
+    {"name": "Gene Ontology Biological Process", "version": "PIN_ME", "url": "http://geneontology.org/docs/download-ontology/", "license": "CC BY 4.0", "species": "Mus musculus", "kind": "functional_modules", "measured_expression": false},
+    {"name": "Cell Ontology", "version": "PIN_ME", "url": "https://github.com/obophenotype/cell-ontology/releases", "license": "CC BY 4.0", "species": "multi-species", "kind": "lineage", "measured_expression": false},
+    {"name": "TRRUST v2 mouse", "version": "v2", "url": "https://www.grnpedia.org/trrust/", "license": "CC BY-SA 4.0 non-commercial research", "species": "Mus musculus", "kind": "signed_regulation", "measured_expression": false},
+    {"name": "CellChatDB mouse", "version": "PIN_ME", "url": "https://github.com/jinworks/CellChat", "license": "CHECK_RELEASE", "species": "Mus musculus", "kind": "ligand_receptor", "measured_expression": false},
+    {"name": "Allen Developing Mouse Brain Atlas", "version": "PIN_QUERY_DATE", "url": "https://brain-map.org/support/documentation/api-for-allen-developing-mouse-brain-atlas", "license": "Allen terms of use", "species": "Mus musculus", "kind": "context_only", "measured_expression": true, "developmental_stages": ["E11.5", "E13.5", "E15.5", "E18.5"], "genotypes": ["WT"]},
+    {"name": "Human Protein Atlas", "version": "25.1", "url": "https://www.proteinatlas.org/about/download", "license": "HPA data-use terms", "species": "Homo sapiens", "kind": "protein_context_only", "measured_expression": true, "developmental_stages": [], "genotypes": ["WT"]},
+    {"name": "STRING", "version": "PIN_ME", "url": "https://string-db.org/cgi/download", "license": "STRING data license", "species": "Mus musculus", "kind": "functional_association", "measured_expression": false},
+    {"name": "UniProtKB", "version": "PIN_ME", "url": "https://rest.uniprot.org/", "license": "CC BY 4.0", "species": "Mus musculus", "kind": "protein_annotation", "measured_expression": false},
+    {"name": "GeneMANIA", "version": "PIN_ME", "url": "https://pages.genemania.org/data/", "license": "CHECK_NETWORK_SOURCES", "species": "Mus musculus", "kind": "multi_network", "measured_expression": false},
+    {"name": "BioGRID", "version": "PIN_ME", "url": "https://downloads.thebiogrid.org/BioGRID", "license": "MIT", "species": "Mus musculus", "kind": "physical_interaction", "measured_expression": false},
+    {"name": "Reactome", "version": "PIN_ME", "url": "https://reactome.org/download-data/", "license": "CC licenses", "species": "Mus musculus", "kind": "pathway_reaction", "measured_expression": false},
+    {"name": "WikiPathways", "version": "PIN_ME", "url": "https://www.wikipathways.org/", "license": "CC0", "species": "Mus musculus", "kind": "pathway", "measured_expression": false},
+    {"name": "JASPAR", "version": "2026", "url": "https://jaspar2026.elixir.no/", "license": "CC BY 4.0", "species": "vertebrates", "kind": "TF_binding", "measured_expression": false},
+    {"name": "ENCODE", "version": "PIN_ACCESSIONS", "url": "https://www.encodeproject.org/", "license": "ENCODE data policy", "species": "Mus musculus", "kind": "cis_regulation", "measured_expression": false},
+    {"name": "MGI", "version": "PIN_ME", "url": "https://www.informatics.jax.org/", "license": "MGI data-use terms", "species": "Mus musculus", "kind": "KO_phenotype", "measured_expression": false},
+    {"name": "Monarch KG", "version": "2026-07-14", "url": "https://monarchinitiative.org/kg/downloads", "license": "per-source provenance", "species": "multi-species", "kind": "phenotype_KG", "measured_expression": false},
+    {"name": "EMAPA", "version": "PIN_ME", "url": "http://purl.obolibrary.org/obo/emapa.obo", "license": "CC0 via KG Registry", "species": "Mus musculus", "kind": "developmental_anatomy", "measured_expression": false}
+  ]
+}

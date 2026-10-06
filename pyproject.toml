@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vec-generality-model-zoo"
+version = "0.4.0"
+description = "Shared population models with task-specific heads spanning Virtual Embryo tasks"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "pandas>=2.0", "anndata>=0.10", "scipy>=1.11"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+ve = "ve.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

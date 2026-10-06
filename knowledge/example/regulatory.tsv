@@ -1,0 +1,5 @@
+regulator	target	sign	confidence	source
+Gata4	Mef2c	1	1	TRRUST
+Gata4	Tbx5	1	0.8	TRRUST
+Ctnnb1	Mef2c	1	0.5	curated_example
+Ctnnb1	Gata4	1	0.5	curated_example

@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: "VEC Generality Model Zoo"
+message: "Please cite this repository release if it supports your work."
+type: software
+version: 0.1.0
+date-released: 2026-10-05
+license: MIT
+authors:
+  - family-names: Zhao
+    given-names: Shaoli
+abstract: "A runnable shared population architecture for T1-T3. A common metacell and gene-module representation feeds task-specific temporal, spatial and perturbation heads. Includes knowledge-bundle leakage audits, seeded sampling, task recipes, ablation guidance and synthetic tests."

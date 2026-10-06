@@ -1,0 +1,6 @@
+gene	module	weight	source
+Gata4	GO::heart_development	1	GO
+Mef2c	GO::heart_development	1	GO
+Tbx5	GO::cardiac_chamber_morphogenesis	1	GO
+Ctnnb1	SIGNAL::WNT	1	GO
+Mab21l2	GO::embryonic_morphogenesis	1	GO

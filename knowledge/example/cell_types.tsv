@@ -1,0 +1,5 @@
+cell_type	ontology_id	parent	birth_rate	marker_module	source
+mesodermal cell	CL:0000222		0		Cell Ontology
+cardiac progenitor cell	CL:0000000	mesodermal cell	0.25	GO::heart_development	Cell Ontology + curated mapping
+cardiomyocyte	CL:0000746	cardiac progenitor cell	0.35	GO::cardiac_chamber_morphogenesis	Cell Ontology
+endothelial cell	CL:0000115	mesodermal cell	0.15	GO::vasculature_development	Cell Ontology

@@ -1,0 +1,4 @@
+ligand	receptor	pathway	confidence	source
+Wnt2	Fzd2	WNT	1	CellChatDB_mouse
+Bmp2	Bmpr1a	BMP	1	CellChatDB_mouse
+Fgf8	Fgfr1	FGF	1	CellChatDB_mouse

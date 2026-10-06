@@ -1,0 +1,5 @@
+gene_a	gene_b	relation	group	confidence	evidence_family	species_match	context_match	directness	source
+Gata4	Mef2c	physical	cardiac_TF_complex	0.8	physical_experiment	1	0.8	1	BioGRID_example
+Gata4	Mef2c	functional	cardiac_TF_complex	0.9	integrated_association	1	0.8	0.5	STRING_example
+Mef2c	Tbx5	pathway	cardiac_development	0.7	curated_pathway	1	1	0.8	Reactome_example
+Ctnnb1	Fzd2	pathway	WNT	0.8	curated_pathway	1	0.8	0.8	WikiPathways_example
